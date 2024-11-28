@@ -3,14 +3,15 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-image: url(../imgs/fondo.png);
-    background-size: contain; /* Escala la imagen para que se ajuste al contenedor sin cortarse */
-    background-position: center top; /* Coloca la imagen centrada y en la parte superior */
-    background-repeat: no-repeat; /* Evita que se repita */
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 nav {
     width: 20%;
+    font-family: 'Oswald', sans-serif;
     background-color: #FCC700;
     padding: 15px;
     height: auto;
@@ -52,11 +53,10 @@ nav ul li a:hover {
 .main-content {
     display: flex;
     flex-direction: column;
-    width: 80%; /* Resto del ancho */
+    width: 80%;
     display: flex;
 }
 
-/* Contenido principal (#main reducido) */
 #main {
     height: 30vh;
     flex: 1;
@@ -75,5 +75,46 @@ nav ul li a:hover {
     overflow-y: auto;
     overflow-x: hidden;
 }
+
+.custom-heading {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: #483d10;
+    font-weight: bold;
+    text-align: left;
+}
+
+.custom-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: #7c681b;
+    line-height: 1.5;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.custom-list {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #bb9e28;
+    line-height: 1.5;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.custom-info {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #bb9e28;
+    line-height: 1.5;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.custom-list .title {
+    font-weight: bold; /* Hace el texto más prominente */
+    color: #dcbb39; /* Color predeterminado del título */
+}
+
 
 
