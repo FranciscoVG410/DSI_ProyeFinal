@@ -4,7 +4,31 @@ function loadContent(item) {
     if (item === 'identificadores') {
         details.innerHTML = `
             <h2>Identificadores</h2>
-            <p>Hola, esta es la sección de identificadores.iajsijasiasiajsiajsijaisajisjaisjiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii pero</p>`;
+            <p>Hola, esta es la sección de identificadores.iajsijasiasiajsiajsijaisajisjai pero
+            <br>sduhsdusd
+            <br>sidhisdisi
+            <br>sidjisjd
+            <br>sidjisjd
+            <br>sidjisjd
+            <br>sidjisjd
+            <br>sidjisjd
+            <br>sidjisjd
+            <br>sidjisjd
+            <br>sidjisjd
+            <br>sidjisjd
+            <br>sidjisjd
+            <br>sidjisjd
+            <br>sidjisjd
+            <br>sidjisjd
+            <br>sidjisjd
+            <br>sidjisjd
+            <br>sidjisjd
+            <br>sidjisjd
+            <br>sidjisjd
+            <br>sidjisjd
+            <br>sidjisjd
+            <br>sidjisjd
+            </p>`;
     } else if (item === 'consecuencias') {
         details.innerHTML = `
             <h2>Consecuencias</h2>
