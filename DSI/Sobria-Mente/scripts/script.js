@@ -38,6 +38,9 @@ function loadContent(item) {
     } else if (item === 'testinomios') {
         details.innerHTML = `
             <h2 class="custom-heading">Testimonios</h2>
+            <p class="custom-text">
+            Testimonios de personas que han vivido la experiencia del alcoholismo y su proceso hacia la recuperación. Escucha sus historias y reflexiones, que pueden ofrecerte una perspectiva más cercana y humana sobre el impacto del consumo de alcohol en la vida de las personas. La superación es posible, y cada testimonio es un paso hacia la esperanza y el cambio.
+            <br>
             <div class="testimonial-place">
                 <div class="testimonio">
                     <iframe src="https://www.tiktok.com/embed/7313917339144146182" width="325" height="605" frameborder="0" allowfullscreen></iframe>

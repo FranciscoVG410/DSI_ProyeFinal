@@ -200,3 +200,22 @@ p{
     max-width: 100%;  /* Hace que la imagen sea responsive */
     height: auto;
 }
+
+.testimonial-place {
+    display: flex;
+    flex-direction: column; /* Asegura que los videos se apilen verticalmente */
+    align-items: center; /* Centra los videos horizontalmente */
+    justify-content: center;
+    gap: 20px; /* Añade espacio entre los videos */
+    margin: 0 auto;
+}
+
+.testimonio {
+    display: flex;
+    justify-content: center; /* Centra el iframe dentro de cada div */
+    align-items: center; /* Alinea el contenido en el centro */
+}
+
+.testimonio iframe {
+    max-width: 100%; /* Hace que los videos se adapten al ancho del contenedor */
+}
