@@ -219,3 +219,25 @@ p{
 .testimonio iframe {
     max-width: 100%; /* Hace que los videos se adapten al ancho del contenedor */
 }
+
+::-webkit-scrollbar {
+    width: 20px; /* Ancho de la barra */
+    height: 10px; /* Alto de la barra horizontal */
+}
+
+/* El "track" es la parte de la barra de desplazamiento donde se mueve el "thumb" */
+::-webkit-scrollbar-track {
+    background-color: #e7e6e6; /* Color del fondo de la barra */
+    border-radius: 10px; /* Bordes redondeados del track */
+}
+
+/* El "thumb" es la parte que se mueve */
+::-webkit-scrollbar-thumb {
+    background-color: #D2B66D; /* Color del thumb */
+    border-radius: 10px; /* Bordes redondeados del thumb */
+}
+
+/* El thumb cuando se pasa el ratón por encima */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #857343; /* Color cuando se pasa el ratón */
+}

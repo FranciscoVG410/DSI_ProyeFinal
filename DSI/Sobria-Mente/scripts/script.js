@@ -173,7 +173,7 @@ function sendMessage() {
         }
 
         const botBubble = document.createElement('div');
-        botBubble.textContent = `IA: ${botReply}`;
+        botBubble.textContent = `ALLY: ${botReply}`;
         botBubble.style.background = '#F1E1F5';
         botBubble.style.margin = '5px 0';
         botBubble.style.padding = '10px';
