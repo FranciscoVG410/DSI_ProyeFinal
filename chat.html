@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobria-Mente Chat</title>
+    <link rel="stylesheet" href="DSI/Sobria-Mente/styles/chat.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Sobria-Mente</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="informacion.html">Información</a></li>
+                <li><a href="testimonios.html">Testimonios</a></li>
+                <li><a href="chat.html" class="active">Chat</a></li>
+                <li><a href="ayuda.html">Ayuda</a></li>
+            </ul>
+        </nav>
+        <div class="user-actions">
+            <a href="#" class="icon-button notifications">🔔</a>
+            <a href="#" class="icon-button profile">👤</a>
+            <a href="#" class="icon-button settings">⚙️</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="chat-container">
+            <div class="chat-header">Chat con IA</div>
+            <div class="chat-messages" id="chatMessages"></div>
+            <div class="chat-input">
+                <input type="text" id="userInput" placeholder="Escribe tu mensaje aquí...">
+                <button id="sendButton">Enviar</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="DSI/Sobria-Mente/scripts/chat.js"></script>
+</body>
+</html>

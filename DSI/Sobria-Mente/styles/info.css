@@ -1,0 +1,139 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8f5e9; /* Suave tono verde */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #2a8457;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    color: #ffffff;
+    background-color: #1c9358;
+    border-radius: 5px;
+}
+
+.user-actions .icon-button {
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #2a8457;
+    transition: transform 0.3s ease;
+}
+
+.user-actions .icon-button:hover {
+    transform: scale(1.2);
+}
+
+/* Estilos para la sección de información */
+main {
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+
+section h1, section h2 {
+    color: #1c9358;
+    margin-bottom: 15px;
+    font-weight: bold;
+    border-left: 5px solid #2a8457;
+    padding-left: 10px;
+}
+
+section p {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+section ul, section ol {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+section ul li, section ol li {
+    margin-bottom: 10px;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+blockquote {
+    font-style: italic;
+    color: #555;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #f1f8e9;
+    border-left: 5px solid #2a8457;
+    border-radius: 5px;
+}
+
+/* Botones y enlaces */
+a {
+    color: #2a8457;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0f3b13;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main {
+        padding: 20px;
+    }
+}
