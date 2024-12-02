@@ -20,7 +20,7 @@ header {
 .logo {
     font-size: 26px;
     font-weight: bold;
-    color: #2a8457;
+    color: #2d558d;
     text-transform: uppercase;
 }
 
@@ -42,7 +42,7 @@ nav ul li a {
 
 nav ul li a:hover, nav ul li a.active {
     color: #ffffff;
-    background-color: #1c9358;
+    background-color: #2d558d;
     border-radius: 5px;
 }
 
@@ -50,7 +50,7 @@ nav ul li a:hover, nav ul li a.active {
     margin-left: 15px;
     text-decoration: none;
     font-size: 24px;
-    color: #2a8457;
+    color: #2d558d;
     transition: transform 0.3s ease;
 }
 
@@ -68,7 +68,7 @@ nav ul li a:hover, nav ul li a.active {
 
 .help-section h1 {
     font-size: 30px;
-    color: #2a8457;
+    color: #2d558d;
     text-align: center;
 }
 
@@ -80,7 +80,7 @@ nav ul li a:hover, nav ul li a.active {
 }
 
 .help-item {
-    background-color: #e9f7e7;
+    background-color: #d7e4ff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
@@ -88,7 +88,7 @@ nav ul li a:hover, nav ul li a.active {
 
 .help-item h3 {
     font-size: 20px;
-    color: #2a8457;
+    color: #2d558d;
 }
 
 .help-item p {

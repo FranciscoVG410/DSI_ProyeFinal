@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e8f5e9; /* Suave tono verde */
+    background-color: #c6d4ff; /* Suave tono verde */
     color: #333;
     line-height: 1.6;
 }
@@ -22,7 +22,7 @@ header {
 .logo {
     font-size: 26px;
     font-weight: bold;
-    color: #2a8457;
+    color: #2d558d;
     text-transform: uppercase;
 }
 
@@ -44,7 +44,7 @@ nav ul li a {
 
 nav ul li a:hover, nav ul li a.active {
     color: #ffffff;
-    background-color: #1c9358;
+    background-color: #2d558d;
     border-radius: 5px;
 }
 
@@ -52,7 +52,7 @@ nav ul li a:hover, nav ul li a.active {
     margin-left: 15px;
     text-decoration: none;
     font-size: 24px;
-    color: #2a8457;
+    color: #2d558d;
     transition: transform 0.3s ease;
 }
 
@@ -76,10 +76,10 @@ section {
 }
 
 section h1, section h2 {
-    color: #1c9358;
+    color: #2d558d;
     margin-bottom: 15px;
     font-weight: bold;
-    border-left: 5px solid #2a8457;
+    border-left: 5px solid #2d558d;
     padding-left: 10px;
 }
 
@@ -104,21 +104,21 @@ blockquote {
     color: #555;
     padding: 10px 20px;
     margin: 20px 0;
-    background-color: #f1f8e9;
-    border-left: 5px solid #2a8457;
+    background-color: #b4bfd9;
+    border-left: 5px solid #2d558d;
     border-radius: 5px;
 }
 
 /* Botones y enlaces */
 a {
-    color: #2a8457;
+    color: #2d558d;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #0f3b13;
+    color: #162c4b;
 }
 
 /* Responsivo */

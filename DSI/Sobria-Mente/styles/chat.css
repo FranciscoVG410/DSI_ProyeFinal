@@ -20,7 +20,7 @@ header {
 .logo {
     font-size: 26px;
     font-weight: bold;
-    color: #2a8457;
+    color: #2d558d;
     text-transform: uppercase;
 }
 
@@ -42,7 +42,7 @@ nav ul li a {
 
 nav ul li a:hover, nav ul li a.active {
     color: #ffffff;
-    background-color: #1c9358;
+    background-color: #2d558d;
     border-radius: 5px;
 }
 
@@ -50,7 +50,7 @@ nav ul li a:hover, nav ul li a.active {
     margin-left: 15px;
     text-decoration: none;
     font-size: 24px;
-    color: #2a8457;
+    color: #203654;
     transition: transform 0.3s ease;
 }
 
@@ -95,7 +95,7 @@ header {
 }
 
 .chat-header {
-    background-color: #1c9358;
+    background-color: #2d558d;
     color: #ffffff;
     padding: 15px;
     text-align: center;
@@ -120,7 +120,7 @@ header {
 }
 
 .chat-message.user {
-    background-color: #1c9358;
+    background-color: #4d7cbd;
     color: #ffffff;
     align-self: flex-end;
 }
@@ -147,7 +147,7 @@ header {
 }
 
 .chat-input button {
-    background-color: #1c9358;
+    background-color: #2d558d;
     color: #ffffff;
     border: none;
     padding: 10px 20px;
@@ -159,5 +159,5 @@ header {
 }
 
 .chat-input button:hover {
-    background-color: #155f3d;
+    background-color: #152a46;
 }

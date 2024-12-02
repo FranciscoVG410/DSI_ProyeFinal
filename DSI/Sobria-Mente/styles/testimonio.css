@@ -19,7 +19,7 @@ header {
 .logo {
     font-size: 26px;
     font-weight: bold;
-    color: #2a8457;
+    color: #2d558d;
     text-transform: uppercase;
 }
 
@@ -41,7 +41,7 @@ nav ul li a {
 
 nav ul li a:hover, nav ul li a.active {
     color: #ffffff;
-    background-color: #1c9358;
+    background-color: #2d558d;
     border-radius: 5px;
 }
 
@@ -49,7 +49,7 @@ nav ul li a:hover, nav ul li a.active {
     margin-left: 15px;
     text-decoration: none;
     font-size: 24px;
-    color: #2a8457;
+    color: #2d558d;
     transition: transform 0.3s ease;
 }
 
