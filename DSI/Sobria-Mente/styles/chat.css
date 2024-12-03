@@ -161,3 +161,10 @@ header {
 .chat-input button:hover {
     background-color: #152a46;
 }
+
+.chat-typing {
+    font-style: italic;
+    color: gray;
+    margin: 5px;
+    text-align: left;
+}
